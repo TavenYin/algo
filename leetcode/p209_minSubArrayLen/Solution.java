@@ -1,3 +1,5 @@
+package leetcode.p209_minSubArrayLen;
+
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         var left = 0;
@@ -44,4 +46,3 @@ class Solution {
         
     }
 }
-

@@ -1,4 +1,6 @@
-class Solution {
+package leetcode.p209_minSubArrayLen;
+
+class BestSolution {
     public int minSubArrayLen(int target, int[] nums) {
         var left = 0;
         var sum = 0;
