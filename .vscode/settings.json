@@ -2,5 +2,13 @@
   "java.project.sourcePaths": [
     "."
   ],
-  "java.project.outputPath": "bin"
+  "java.project.outputPath": "bin",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home",
+      "sources": "/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home/lib/src.zip",
+      "default": true
+    }
+  ]
 }
